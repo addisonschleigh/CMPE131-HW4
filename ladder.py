@@ -13,4 +13,3 @@ def my_steps(n):
         a, b = b, a + b
     return b
 
-print(my_steps(5))

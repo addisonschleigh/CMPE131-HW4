@@ -17,3 +17,4 @@ def merge_list(list1, list2):
 		for j in range(0, n-i-1):
 			if mergedList[j] > mergedList[j+1]:
 				mergedList[j], mergedList[j+1] = mergedList[j+1], mergedList[j]
+	return mergedList

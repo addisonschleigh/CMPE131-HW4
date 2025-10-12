@@ -1,2 +1,3 @@
-One major way inheritance is used is that it helps with reusability in programs, such that if you know multiple classes do similar things, just having one inherit the other helps make functions and actions easier to reuse.
-The other major way is its help in object based programming, such that of using is-a relationships, for which if you have multiple objects that share some common value, such as both boats and cars being vehicles, you can use inheritance to connect it to a parent vehicle class to have shared functions, such as a constructor, perhaps for how many wheels it has, while also having their own functions, like drive with a car or propel in a boat.
+1. a does not change after increment_int_a is called
+2. b does change after increment_int_b is called
+3. The main difference between the two results is that a, an int, is immutable and so can't be changed in a function, while b is a dictionary value, which can be changed due to the fact that it is a mutable variable.
