@@ -1,5 +1,7 @@
 import time
 
 def timestamp(msg):
-    print(time.ctime())
-    print(msg())
+    def wrapper(*args, **kwargs):
+        print(time.ctime())
+        return msg(*args, **kwargs)
+    return wrapper

@@ -1,2 +1,5 @@
 def allcaps(text):
-    return text().upper()
+    def wrapper():
+        result = text()
+        return result.upper()
+    return wrapper
